@@ -1,0 +1,5 @@
+body { background: #050505; color: #00ff41; font-family: 'Courier New', monospace; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+.card { border: 1px solid #00ff41; padding: 20px; background: rgba(0, 255, 65, 0.05); }
+button { background: transparent; border: 1px solid #00ff41; color: #00ff41; cursor: pointer; padding: 10px; }
+button:hover { background: #00ff41; color: #000; }
